@@ -1,0 +1,14 @@
+body{
+    background-color: #24353F;
+}
+.content {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+/* input,textarea{
+    background: transparent !important;
+    color:#fff !important;
+} */
+a{
+    text-decoration: none;
+    color: white;
+}

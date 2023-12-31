@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body cz-shortcut-listen="true">
+  <!-- <span class="d-none" id="username">Welcome noura</span> -->
+  <div class="container my-5 text-center">
+      <div class="content m-auto w-75 p-5">
+          <h1 class="text-info">Smart Login System</h1>
+
+          <input id="SignupNameInput" class="form-control bg-transparent text-white my-3" placeholder="Enter your name" type="text">
+          <p id="usernameAlert" class="d-none text-danger">include at least 1 letters starting with capital,maximum chars 20</p>
+
+
+          <input id="SignupEmailInput" class="form-control bg-transparent text-white my-3" placeholder="Enter your email" type="email">
+          <p id="useremailAlert" class="d-none text-danger">name@example.com</p>
+
+
+
+          <input id="SignupPasswordInput" class="form-control bg-transparent text-white my-3" placeholder="Enter  password" type="password">
+          <p id="userpassAlert" class="d-none text-danger">you must strenth your password from 5 to 15 characters</p>
+
+
+
+          <p id="configerMsg" class="text-success d-none">Success</p>
+          <p class="text-danger d-none mb-0" id="accountExistMsg">This account is exist ! try another one</p>
+          <p class="text-danger d-none mb-0" id="tryAgain">sign up failed ! try again</p>
+
+         
+          
+
+          <button onclick=" signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+          <p class="text-white">You have an account? <a href="index.html">Signin</a></p>
+
+
+          <a href="index.html" class="d-none btn btn-outline-success text-white w-25 m-auto" id="signin">Signin</a>
+      </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="signup.js"></script>
+
+</body>
+</html>
